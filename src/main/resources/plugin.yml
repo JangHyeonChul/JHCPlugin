@@ -1,0 +1,17 @@
+name: JHCPlugin
+version: '${version}'
+main: org.test.jhcplugin.JHCPlugin
+api-version: 1.19
+softdepend: [PlaceholderAPI] # This is used, if your plugin works without PlaceholderAPI.
+commands:
+  JHC:
+    description: 으아아아아아앜
+    usage: /JHC
+  잔고:
+    description: 잔고확인
+  야간투시:
+    description: 광부 기본 능력
+  직업확인:
+    description: 직업확인하기
+depend:
+  - Vault
