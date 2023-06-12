@@ -22,7 +22,7 @@ public class LuckPermPermission {
 
     public static void removeBeginnerPemissionShop(LuckPerms luckPerms, User user) {
         if (user != null) {
-            user.data().remove(Node.builder("starly.shop.open.사냥꾼상점").build());
+            user.data().remove(Node.builder("starly.shop.open.초보자상점").build());
             luckPerms.getUserManager().saveUser(user);
         }
     }
